@@ -22,9 +22,8 @@ golem::fill_desc(
   pkg_name = "UnionRolodex", # The Name of the package containing the App
   pkg_title = "UnionRolodex", # The Title of the package containing the App
   pkg_description = "Union College Resource Rolodex App is a progressive web application built for Union Collegeto help students access on- and off-campus resources and referrals to support academic success!", # The Description of the package containing the App
-  author_first_name = "Evan", # Your First Name
-  author_last_name = "Ozmat", # Your Last Name
-  author_email = "ozmate@union.edu", # Your Email
+  authors = person(given = "Evan", family = "Ozmat", email = "ozmate@union.edu", role = c("aut", "cre"), comment =
+                     NULL),
   repo_url = NULL, # The URL of the GitHub Repo (optional),
   pkg_version = "1.0.0.0000" # The Version of the package containing the App
 )
