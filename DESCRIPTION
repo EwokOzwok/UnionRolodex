@@ -1,0 +1,17 @@
+Package: UnionRolodex
+Title: UnionRolodex
+Version: 1.0.0.0000
+Authors@R: 
+    person("Evan", "Ozmat", , "ozmate@union.edu")
+Description: Union College Resource Rolodex App is a progressive web application built for Union Collegeto help students access on- and off-campus resources and referrals to support academic success!
+License: Apache License (>= 2)
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
