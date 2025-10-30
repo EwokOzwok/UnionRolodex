@@ -16,6 +16,7 @@ Imports:
     golem,
     htmltools,
     magrittr,
+    pkgload,
     shiny,
     shinyMobile,
     stats
